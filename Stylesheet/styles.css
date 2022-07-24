@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter, system-ui;
+    color: rgb(36, 62, 99)
+}
+
+ul {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    position: relative;
+}
+
+.link__hover--effect {
+    transition: all 400ms ease;
+    border-bottom: 2px transparent solid;
+}
+
+.link__hover--effect:hover {
+    border-color: #6415ff;
+    color: #6415ff;
+}
+
+li {
+    list-style-type: none;
+    
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav__container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    padding-bottom: 0.25rem;
+    overflow: hidden;
+}
+
+.logo__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 900;
+    border-bottom-width: 0px;
+    font-size: 1.5rem !important;
+    margin-left: 0px !important;
+}
+
+.text__logo {
+    margin: 0 16px;
+}
+
+.nav__link {
+    margin-left: 40px;
+    font-size: 1.125rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    letter-spacing: 0.025em;
+    padding-bottom: 0.25rem;
+    border-bottom-width: 2px;
+    border-color: transparent;
+}
+
+.nav__link--2 {
+    margin-left: 56px;
+}
+
+.nav__button {
+    background-color: rgba(100,21,255);
+    padding: 0.75rem 2rem;
+    border-radius: 1.25rem;
+    font-size: 0.875rem;
+    color: white;
+}
+
+.nav__button-hover--effect {
+    transition: all 400ms ease;
+}
+
+.nav__button-hover--effect:hover {
+    background-color:  rgb(55, 6, 153);
+}
+
+
