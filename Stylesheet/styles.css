@@ -15,6 +15,10 @@ a {
     position: relative;
 }
 
+.purple {
+    color: #6415ff;
+}
+
 .link__hover--effect {
     transition: all 400ms ease;
     border-bottom: 2px transparent solid;
@@ -30,17 +34,47 @@ li {
     
 }
 
+h1 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+h3 {
+    color: rgba(160,174,192);
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    font-size: 0.875rem;
+}
+
+p {
+    font-size: 1.125rem;
+}
+
 .logo {
     width: 40px;
     height: 40px;
 }
 
+.text__logo--effect {
+    transition: all 400ms ease;
+}
+
+.text__logo--effect:hover {
+    color: #6415ff;
+}
 
 .row {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
 }
+
+
+section {
+    margin: 72px 0;
+}
+
+/*Navigation */
 
 .nav__container {
     width: 100%;
@@ -70,7 +104,7 @@ li {
 
 .nav__link {
     margin-left: 40px;
-    font-size: 1.125rem;
+    font-size: .92rem;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     font-weight: 600;
@@ -81,7 +115,9 @@ li {
 }
 
 .nav__link--2 {
-    margin-left: 56px;
+    margin-left: 66px;
+    margin-right: -18px;
+
 }
 
 .nav__button {
@@ -99,5 +135,120 @@ li {
 .nav__button-hover--effect:hover {
     background-color:  rgb(55, 6, 153);
 }
+
+/* Header */
+
+#header {
+    display: flex;
+    flex: column;
+}
+
+.header__40 {
+    width: 40%;
+}
+
+.header__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__title {
+    line-height: 1.5;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.header__para {
+    margin: 2rem 0;
+    text-align: left;
+}
+
+.header__submission {
+    border: solid 2px #e5e7eb;
+    border-radius: 9999px;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+}
+
+.header__submission--effect {
+    transition: all 400ms ease;
+}
+
+.header__submission--effect:hover {
+    border-color: #3a3a3b8c;
+}
+
+.header__submission--email {
+    border-style: none;
+    outline: none;
+    font-size: 18px;
+    padding: 12px 0;
+    margin-left: 12px;
+}
+
+.header__submission--button {
+    background-color: #6415ff;
+    color: white;
+    border-style: none;
+    padding: 16px 45px;
+    border-radius: 9999px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.header__submission--button--effect {
+    transition: all 400ms ease;
+}
+
+.header__submission--button--effect:hover {
+    background-color: #20035a;
+    cursor: pointer;
+}
+
+.header__supporters--container {
+    margin-top: 5rem;
+}
+
+.header__supporters--img {
+    padding-right: 4rem;
+    margin-top: 1rem;
+    opacity: 0.5;
+    width: 500px;
+}
+
+.header__img--40 {
+    height: 100%;
+    width: 100%;
+}
+
+/* Section */
+
+.features__container {
+
+}
+
+
+.features__heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.features__box {
+    width:calc(100% / 3)
+}
+
+.feature__box--container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
 
 
