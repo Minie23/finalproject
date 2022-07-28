@@ -134,11 +134,10 @@ textarea {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 2rem;
+    padding: 2rem 0;
     padding-bottom: 0.25rem;
-    overflow: hidden;
 }
 
 .logo__container {
@@ -458,28 +457,98 @@ textarea {
     display: flex;
 }
 
-.values__img {
-    width: 634px;
+.values__container--right-img {
+    width: 633px;
 }
 
-.values__left--icon-title {
+.values__container--title {
     display: flex;
+    flex-direction: row;
+}
+
+.values__container--attribute-titlesvg {
+    display: flex;
+}
+
+.values__container-1 {
+    display: flex;
+}
+
+.values__container--attribute-1 {
+    margin-top: 32px;
+    margin-right: 32px;
+}
+
+.values__attribute-para {
+    margin-top: 1rem;
+    font-size: 16px;
+    --tw-text-opacity: 1;
+    color: rgba(113,128,150,var(--tw-text-opacity));
+    line-height: 1.625;
+}
+
+.values__svg {
+    margin-right: 16px;
+}
+
+
+/* Pricing */
+
+.pricing__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
-svg {
-    width: 24;
-    height: 24;
-    fill: none;
-    stroke: currentcolor;
-    stroke-width: 2;
-    stroke-linecap: round;
-    stroke-linejoin: round;
+.pricing__description {
+    text-align: center;
 }
 
-.values__icon--svg {
-    background-color: green;
+.pricing__plans {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    
 }
+
+.pricing__plans--description-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.pricing__plans-1 {
+    border: 2px grey solid;
+    border-top: 2px blue solid;
+    border-radius: 20px;
+    width: 384px;
+}
+
+.pricing__plans--pesonal--header {
+    padding: 30px;
+    border-bottom: 1px grey solid;
+}
+
+.pricing__plans--type {
+    font-weight: bold;
+   font-size: 1.25rem; 
+   line-height: 1.625;
+   text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
 
 
 
